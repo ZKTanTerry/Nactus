@@ -24,5 +24,5 @@ app.route('/searchVideoSubject/:subject').get(videoController.getVideosFromSubje
 app.route('/video').get(videoController.getAllVideos);
 
 
-app.listen(port, () => console.log('Example app listening on port ${port}!`))
+app.listen(port, () => console.log('Example app listening on port ${port}!'))
 //console.log("web server running @ http://127.0.0.1:8080"); // output to console 
